@@ -1,0 +1,14 @@
+{
+  "x-mark-icon": "x",
+  "ctl00_Header1_ctl00_KeywordField": "strawberry",
+  "ctl00_Header1_ctl00_btnSearch": "SEARCH",
+  "ctl00_MainContentHolder_ProductGridDisplay_rpProductGrid_ctl04_SingleProductDisplay_PriceLabel": "$44.99",
+  "com.movistar.base:id/onBoardingPreLogin_button_close": "x",
+  "com.movistar.base:id/onBoardingPreLogin_button_close": "testusuario",
+  "com.movistar.base:id/login_input_password": "testpass",
+  "com.movistar.base:id/login_button_showPassword": "eye",
+  "com.movistar.base:id/login_button_login": "Acceder",
+  "com.movistar.base:id/dialog_text_title": "Smart WiFi",
+  "com.movistar.base:id/dialog_text_message": "Los datos introducidos no son correctos. Por favor vuelve a intentarlo.",
+  "com.movistar.base:id/dialog_button_positive": "OK"
+}

@@ -1,0 +1,116 @@
+{
+    "cycling" : {
+        "sportsman" : [
+            {
+                "name" : "Alejandro Valverde",
+                "type": "road",
+                "specialty": "all",
+                "team_id": "MVS",
+                "order": "0"
+            },
+            {
+                "name" : "Peter Sagan",
+                "type" : "road",
+                "specialty" : "sprinter",
+                "team_id" : "TEN",
+                "order": "1"
+            },
+            {
+                "name" :"Filippo Ganna",
+                "type" : "track",
+                "specialty" : "persecution",
+                "team_id" : "IGD",
+                "order": "2"
+            },
+            {
+                "name": "Wout van Aert",
+                "type": "ciclocross",
+                "specialty": "worldraces",
+                "team_id" : "TJV",
+                "order": "3"
+            }
+        ],
+        "teams": [
+            {
+                "id": "MVS",
+                "value": "Movistar",
+                "order": "0"
+
+            },
+            {
+                "id" : "TEN",
+                "value": "Team TotalEnergies",
+                "order": "1"
+            },
+            {
+                "id": "IGD",
+                "value": "INEOS GRENADIERS",
+                "order": "2"
+            },
+            {
+                "id" : "TJV",
+                "value": "Jumbo-Visma",
+                "order": "4"
+            }
+
+        ]
+    },
+    "football":{
+        "sportsman" : [
+            {
+                "name" : "Luis Alfonso Espino García",
+                "type" : "fieldplayer",
+                "specialty" : "Defender",
+                "team_id": "CDZ",
+                "order" : 0
+            },
+            {
+                "name" : "Brian Oliván",
+                "type" : "fieldplayer",
+                "specialty" : "lateralizdo",
+                "team_id": "MLLRC",
+                "order" : 1
+            },
+            {
+                "name" : "Oihan Sancet Tirapu",
+                "type" : "fieldplayer",
+                "specialty" : "Midfielder",
+                "team_id": "ATC",
+                "order" : 2
+            },
+            {
+                "name" : "Jaume Doménech",
+                "type" : "Goalkeeper",
+                "specialty" : "Goalkeeper",
+                "team_id": "VCF",
+                "order" : 3
+            }
+        ],
+        "teams": [
+            {
+                "id": "CDZ",
+                "value": "",
+                "order": 0
+
+            },
+            {
+                "id": "MLLRC",
+                "value": "Real Club Deportivo Mayorca",
+                "order": 1
+
+            },
+            {
+                "id": "ATC",
+                "value": "ATHLETIC CLUB DE BILBAO",
+                "order": 2
+
+            },
+            {
+                "id": "VCF",
+                "value": "Valencia Club de Fútbol",
+                "order": 3
+
+            }
+        ]
+    }
+}
