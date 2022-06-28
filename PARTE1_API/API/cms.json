@@ -1,0 +1,170 @@
+{
+    "selenium" : {
+        "site": "https://www.cheesecake.com/",
+        "elements" : [
+            {
+                "name" : "signup_banner",
+                "locator_type": "id",
+                "locator_value": "x-mark-icon",
+                "text_id": "close_signup",
+                "order": "0"
+            },
+            {
+                "name" : "caja_busqueda",
+                "locator_type" : "id",
+                "locator_value" : "ctl00_Header1_ctl00_KeywordField",
+                "text_id" : "busca_tarta_fresa",
+                "order": "1"
+            },
+            {
+                "name" :"boton_buscar",
+                "locator_type" : "id",
+                "locator_value" : "ctl00_Header1_ctl00_btnSearch",
+                "text_id" : "texto_boton_buscar",
+                "order": "2"
+            },
+            {
+                "name": "resultado_4",
+                "locator_type": "id",
+                "locator_value": "ctl00_MainContentHolder_ProductGridDisplay_rpProductGrid_ctl04_SingleProductDisplay_PriceLabel",
+                "text_id" : "precio_tarta4",
+                "order": "3"
+            }
+        ],
+        "texts": [
+            {
+                "id": "close_signup",
+                "value": "x",
+                "order": "0"
+
+            },
+            {
+                "id" : "busca_tarta_fresa",
+                "value": "strawberry",
+                "order": "1"
+            },
+            {
+                "id": "texto_boton_buscar",
+                "value": "SEARCH",
+                "order": "2"
+            },
+            {
+                "id" : "precio_tarta4",
+                "value": "$44.99",
+                "order": "3"
+            }
+        
+        ]
+    },
+    "appium":{
+        "site": "https://drive.google.com/drive/folders/1-fcfVoAA5FgaMZR6ZzGVi98aY_9knSNe?usp=sharing",
+        "elements" : [
+            {
+                "name" : "close_onboarding",
+                "locator_type" : "id",
+                "locator_value" : "com.movistar.base:id/onBoardingPreLogin_button_close",
+                "text_id": "x_close_onboarding",
+                "order" : 0
+            },
+            {
+                "name" : "input_text_usuario",
+                "locator_type" : "id",
+                "locator_value" : "TODO_INPUT_TEXT_USERNAME",
+                "text_id": "username_id",
+                "order" : 1
+            },
+            {
+                "name" : "input_text_password",
+                "locator_type" : "id",
+                "locator_value" : "com.movistar.base:id/login_input_password",
+                "text_id": "password_value",
+                "order" : 2
+            },
+            {
+                "name" : "button_show_password",
+                "locator_type" : "id",
+                "locator_value" : "com.movistar.base:id/login_button_showPassword",
+                "text_id": "eye_button",
+                "order" : 3
+            },
+            {
+                "name" : "login_button",
+                "locator_type" : "id",
+                "locator_value" : "com.movistar.base:id/login_button_login",
+                "text_id": "access_buton",
+                "order" : 4
+            },
+            {
+                "name" : "popup_title",
+                "locator_type" : "id",
+                "locator_value" : "com.movistar.base:id/dialog_text_title",
+                "text_id": "title_smartwifi",
+                "order" : 5
+            },
+            {
+                "name" : "popup_message",
+                "locator_type" : "id",
+                "locator_value" : "com.movistar.base:id/dialog_text_message",
+                "text_id": "message_wronaccess",
+                "order" : 6
+            },
+            {
+                "name" : "popup_button_ok",
+                "locator_type" : "id",
+                "locator_value" : "com.movistar.base:id/dialog_button_positive",
+                "text_id": "button_ok",
+                "order" : 7
+            }
+        ],
+        "texts": [
+            {
+                "id": "x_close_onboarding",
+                "value": "x",
+                "order": 0
+
+            },
+            {
+                "id": "username_id",
+                "value": "testusuario",
+                "order": 1
+
+            },
+            {
+                "id": "password_value",
+                "value": "testpass",
+                "order": 2
+
+            },
+            {
+                "id": "eye_button",
+                "value": "eye",
+                "order": 3
+
+            },
+            {
+                "id": "access_buton",
+                "value": "Acceder",
+                "order": 4
+
+            },
+            {
+                "id": "title_smartwifi",
+                "value": "Smart WiFi",
+                "order": 5
+
+            },
+            {
+                "id": "message_wronaccess",
+                "value": "Los datos introducidos no son correctos. Por favor vuelve a intentarlo.",
+                "order": 6
+
+            },
+            {
+                "id": "button_ok",
+                "value": "OK",
+                "order": 7
+
+            }
+        ]
+    }
+}
